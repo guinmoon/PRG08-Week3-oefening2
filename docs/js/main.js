@@ -80,10 +80,10 @@ var Idle = (function () {
     }
     Idle.prototype.update = function () {
         console.log("Idle");
-        this.jibby.div.style.backgroundImage = "url('images/idle.png')";
         this.jibby.hygiene -= 0.01;
         this.jibby.food -= 0.02;
         this.jibby.happiness -= 0.015;
+        this.jibby.div.style.backgroundImage = "url('images/idle.png')";
     };
     return Idle;
 }());
