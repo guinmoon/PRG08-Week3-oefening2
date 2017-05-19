@@ -11,14 +11,9 @@ class Jibby extends GameObject {
         super("jibby", parent, 0, 220);
 
         // start instellingen
-        this.x = 0;
-        this.y = 220;
         this.hygiene = this.food = this.happiness = 50;
 
         this.behavior = new Idle(this);
-        // // afbeelding voor idle - vervang dit door het gedrag
-        // this.div.style.backgroundImage = "url('images/idle.png')";
-        // this.myBehavior = new Idle();
 
         // click listeners
         this.div.addEventListener("click", () => this.onPet());

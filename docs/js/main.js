@@ -21,8 +21,6 @@ var Jibby = (function (_super) {
     __extends(Jibby, _super);
     function Jibby(parent) {
         var _this = _super.call(this, "jibby", parent, 0, 220) || this;
-        _this.x = 0;
-        _this.y = 220;
         _this.hygiene = _this.food = _this.happiness = 50;
         _this.behavior = new Idle(_this);
         _this.div.addEventListener("click", function () { return _this.onPet(); });
@@ -106,5 +104,32 @@ var Dead = (function () {
         console.log("Dead");
     };
     return Dead;
+}());
+var Hungry = (function () {
+    function Hungry(j) {
+        this.jibby = j;
+    }
+    Hungry.prototype.update = function () {
+        console.log("Hungry");
+    };
+    return Hungry;
+}());
+var Angry = (function () {
+    function Angry(j) {
+        this.jibby = j;
+    }
+    Angry.prototype.update = function () {
+        console.log("Angry");
+    };
+    return Angry;
+}());
+var Dirty = (function () {
+    function Dirty(j) {
+        this.jibby = j;
+    }
+    Dirty.prototype.update = function () {
+        console.log("Dirty");
+    };
+    return Dirty;
 }());
 //# sourceMappingURL=main.js.map
