@@ -132,4 +132,31 @@ var Dirty = (function () {
     };
     return Dirty;
 }());
+var Eating = (function () {
+    function Eating(j) {
+        this.jibby = j;
+    }
+    Eating.prototype.update = function () {
+        console.log("Eating");
+    };
+    return Eating;
+}());
+var Washing = (function () {
+    function Washing(j) {
+        this.jibby = j;
+    }
+    Washing.prototype.update = function () {
+        console.log("Washing");
+    };
+    return Washing;
+}());
+var Happy = (function () {
+    function Happy(j) {
+        this.jibby = j;
+    }
+    Happy.prototype.update = function () {
+        console.log("Happy");
+    };
+    return Happy;
+}());
 //# sourceMappingURL=main.js.map

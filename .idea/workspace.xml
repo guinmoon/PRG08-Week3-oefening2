@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b2f919-1c39-4e8d-b13c-b3c3ad76b91c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/states/angry.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/states/dirty.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/states/hungry.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/states/eating.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/states/happy.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/states/washing.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/jibby.ts" afterPath="$PROJECT_DIR$/dev/jibby.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/main.js" afterPath="$PROJECT_DIR$/docs/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/main.js.map" afterPath="$PROJECT_DIR$/docs/js/main.js.map" />
     </list>
@@ -23,16 +22,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="behavior.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/behavior.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="game.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/game.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,7 +36,37 @@
         <entry file="file://$PROJECT_DIR$/dev/states/hungry.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <caret line="8" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eating.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/states/eating.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="washing.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/states/washing.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="happy.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/states/happy.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -63,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dirty.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dirty.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/states/dirty.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -73,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jibby.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jibby.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/jibby.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="101">
               <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding />
             </state>
@@ -103,26 +122,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sleeping.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/states/sleeping.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dead.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/states/dead.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -141,6 +140,9 @@
         <option value="$PROJECT_DIR$/dev/states/hungry.ts" />
         <option value="$PROJECT_DIR$/dev/states/angry.ts" />
         <option value="$PROJECT_DIR$/dev/states/dirty.ts" />
+        <option value="$PROJECT_DIR$/dev/states/eating.ts" />
+        <option value="$PROJECT_DIR$/dev/states/washing.ts" />
+        <option value="$PROJECT_DIR$/dev/states/happy.ts" />
       </list>
     </option>
   </component>
@@ -310,12 +312,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495199589617</updated>
-      <workItem from="1495199591032" duration="4764000" />
+      <workItem from="1495199591032" duration="5071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4764000" />
+    <option name="totallyTimeSpent" value="5071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -375,14 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/jibby.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/gameobject.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -407,14 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/states/hungry.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/states/angry.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -427,6 +413,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/states/hungry.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/states/eating.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/states/washing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/states/happy.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/jibby.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding />
         </state>
       </provider>
