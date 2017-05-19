@@ -1,6 +1,7 @@
 /// <reference path="jibby.ts"/>
 
 class Game {
+    private static GameInstance: Game;
 
     private jibby : Jibby;
 
@@ -21,10 +22,17 @@ class Game {
         document.getElementsByTagName("happyness")[0].innerHTML = Math.round(this.jibby.happyness).toString();
         document.getElementsByTagName("hygiene")[0].innerHTML = Math.round(this.jibby.hygiene).toString();
     }
+
+    public static getInstance() {
+        if (! Game.GameInstance) {
+            Game.GameInstance = new Game();
+        }
+        return Game.GameInstance;
+    }
 } 
 
 
 // load
 window.addEventListener("load", function() {
-    let g:Game = new Game();
+    Game.getInstance();
 });

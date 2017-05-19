@@ -48,9 +48,42 @@ var Game = (function () {
         document.getElementsByTagName("happyness")[0].innerHTML = Math.round(this.jibby.happyness).toString();
         document.getElementsByTagName("hygiene")[0].innerHTML = Math.round(this.jibby.hygiene).toString();
     };
+    Game.getInstance = function () {
+        if (!Game.GameInstance) {
+            Game.GameInstance = new Game();
+        }
+        return Game.GameInstance;
+    };
     return Game;
 }());
 window.addEventListener("load", function () {
-    var g = new Game();
+    Game.getInstance();
 });
+var Idle = (function () {
+    function Idle(j) {
+        this.jibby = j;
+    }
+    Idle.prototype.update = function () {
+        console.log("Idle");
+    };
+    return Idle;
+}());
+var Sleeping = (function () {
+    function Sleeping(j) {
+        this.jibby = j;
+    }
+    Sleeping.prototype.update = function () {
+        console.log("Sleeping");
+    };
+    return Sleeping;
+}());
+var Dead = (function () {
+    function Dead(j) {
+        this.jibby = j;
+    }
+    Dead.prototype.update = function () {
+        console.log("Dead");
+    };
+    return Dead;
+}());
 //# sourceMappingURL=main.js.map
